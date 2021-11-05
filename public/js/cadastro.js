@@ -10,7 +10,6 @@ document.querySelector('#uf').addEventListener('change', ()=>{
     retornaCidades(uf, "Selecione...");
 })
 
-
 cancelar.addEventListener('click', ()=>{
     inserir_alterar.innerHTML = "Cadastrar";
     document.querySelector('#id').value = "";
@@ -50,6 +49,8 @@ cancelar.addEventListener('click', ()=>{
  }
 
  function editar(id){
+    sucesso.innerHTML = "";
+    ul.innerHTML = "";
     let data = new FormData();
     data.append("id", id);
 	fetch("cadastro/editar", {
@@ -82,11 +83,9 @@ cancelar.addEventListener('click', ()=>{
  }
 
  var listagem = () => {	
-	
 	fetch("cadastro/listagem", {
 		method: 'POST',
 	})
-	
 	.then(response => {		
 		return response.json()
 	})
@@ -105,12 +104,13 @@ cancelar.addEventListener('click', ()=>{
                     </tr>`;
         })
         let table = document.querySelector("#listagem tbody");
+        
         if(tr != ""){
             table.innerHTML = tr;
         }
         else{
             table.innerHTML = "<tr><td colspan='5'>Não há registro</td></tr>";
-        }	
+        }
 		})
 		.catch(err => {
 			alert("Erro na requisção");
@@ -151,7 +151,7 @@ listagem();
     });
 });
 function retornaCidades(uf, cidade){
-	fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados/"+uf+"/distritos", {
+	fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados/"+uf+"/distritos?orderBy=nome", {
 		method: 'GET',
 	})
     .then(response => {		
@@ -168,12 +168,11 @@ function retornaCidades(uf, cidade){
             }
         })
 	})
-   
-		.catch(err => {
-			alert("Erro na requisção");
-		})
-		.finally(() => {			
-			console.log("Termino requisicao");
-		});
+    .catch(err => {
+        alert("Erro na requisção");
+    })
+    .finally(() => {			
+        console.log("Termino requisicao");
+    });
 }
 

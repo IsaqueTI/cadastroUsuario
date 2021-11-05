@@ -18,15 +18,14 @@
         color: green;
     }
     </style>
-
 </head>
 
 <body>
-    <div class="container">
-
+    <div class="container container-fluid">
+        <h2 class="text-center">Gest&atilde;o usuarios</h2>
         <form id="form_cadastro" name="form_cadastro" autocomplete="off">
             <input type="hidden" name="id" id="id">
-            <div class="row mt-1">
+            <div class="row mt-3">
                 <div class="col-6">
                     <div class="form-group">
                         <label for="usuario">Usuario</label>
@@ -56,8 +55,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="row mt-1">
                 <div class="col-6">
                     <div class="form-group">
@@ -73,8 +70,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="row mt-1">
                 <div class="col-2">
                     <div class="form-group">
@@ -111,7 +106,6 @@
                         </select>
                     </div>
                 </div>
-
                 <div class="col-4">
                     <div class="form-group">
                         <label for="cidade">Cidade</label>
@@ -120,7 +114,6 @@
                         </select>
                     </div>
                 </div>
-
                 <div class="col-6">
                     <div class="form-group">
                         <label for="endereco">Endereço</label>
