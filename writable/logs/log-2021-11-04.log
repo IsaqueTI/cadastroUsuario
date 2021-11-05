@@ -1,0 +1,129 @@
+CRITICAL - 2021-11-04 13:56:03 --> Call to a member function setRules() on null
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(824): App\Controllers\Cadastro->cadastroUsuario()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 13:56:51 --> Undefined variable: validation
+#0 C:\xampp\htdocs\quest\app\Controllers\Cadastro.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(824): App\Controllers\Cadastro->cadastroUsuario()
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#3 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-04 14:23:44 --> Class 'App\Models\Quest_cadastro_usuario_Model' not found
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(801): App\Controllers\Cadastro->__construct()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 16:10:03 --> Class 'App\Models\Quest_cadastro_usuario_Model' not found
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(801): App\Controllers\Cadastro->__construct()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 16:12:27 --> Class 'App\Models\Quest_cadastro_usuario_Model' not found
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(801): App\Controllers\Cadastro->__construct()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 16:13:48 --> Class 'App\Models\Quest_cadastro_usuario_Model' not found
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(801): App\Controllers\Cadastro->__construct()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 16:14:57 --> Class 'App\Models\Quest_cadastro_usuario_Model' not found
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(801): App\Controllers\Cadastro->__construct()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 16:18:55 --> Class 'App\Models\Quest_cadastro_usuario_Model' not found
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(801): App\Controllers\Cadastro->__construct()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 16:21:10 --> Class 'App\Models\Quest_cadastro_usuario_Model' not found
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(801): App\Controllers\Cadastro->__construct()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 16:32:21 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\quest\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\quest\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\quest\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\xampp\htdocs\quest\app\Controllers\Cadastro.php(21): CodeIgniter\BaseModel->findAll()
+#4 C:\xampp\htdocs\quest\system\CodeIgniter.php(824): App\Controllers\Cadastro->cadastroUsuario()
+#5 C:\xampp\htdocs\quest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#6 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-04 16:35:53 --> Call to a member function getErrors() on bool
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(824): App\Controllers\Cadastro->cadastroUsuario()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 16:36:46 --> Call to a member function getErrors() on bool
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(824): App\Controllers\Cadastro->cadastroUsuario()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 18:46:44 --> Call to a member function Affectedrows() on null
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(824): App\Controllers\Cadastro->excluir()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-04 18:49:47 --> Call to a member function affectedRows() on null
+#0 C:\xampp\htdocs\quest\system\CodeIgniter.php(824): App\Controllers\Cadastro->excluir()
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-11-04 19:34:15 --> Duplicate entry 'abcde' for key 'usuario'
+ERROR - 2021-11-04 19:34:15 --> Duplicate entry 'abcde' for key 'usuario'
+ERROR - 2021-11-04 19:34:50 --> Duplicate entry 'abcde' for key 'usuario'
+ERROR - 2021-11-04 19:34:50 --> Duplicate entry 'abcde' for key 'usuario'
+ERROR - 2021-11-04 19:35:28 --> Duplicate entry 'a@gmail.com' for key 'email'
+ERROR - 2021-11-04 19:35:28 --> Duplicate entry 'a@gmail.com' for key 'email'
+ERROR - 2021-11-04 19:36:25 --> Duplicate entry 'ggggggggggggg' for key 'usuario'
+ERROR - 2021-11-04 19:36:54 --> Duplicate entry 'fff@gamil.com' for key 'email'
+ERROR - 2021-11-04 19:36:55 --> Duplicate entry 'fff@gamil.com' for key 'email'
+ERROR - 2021-11-04 19:39:10 --> Duplicate entry 'cccccccccc' for key 'usuario'
+ERROR - 2021-11-04 19:39:27 --> Duplicate entry 'kkkkkkkkkkkkk' for key 'usuario'
+ERROR - 2021-11-04 20:02:44 --> Duplicate entry 'kkkkkkkkkkkkk' for key 'usuario'
+ERROR - 2021-11-04 20:21:06 --> Duplicate entry 'kkkkkkkkkkkkk' for key 'usuario'
+CRITICAL - 2021-11-04 20:44:09 --> file_get_contents(https://servicodados.ibge.gov.br/api/v1/localidades/estados/{UF}/distritos): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\quest\app\Controllers\Cadastro.php(96): file_get_contents('https://servico...')
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(824): App\Controllers\Cadastro->retornaCidades()
+#3 C:\xampp\htdocs\quest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#4 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-04 20:44:39 --> file_get_contents(https://servicodados.ibge.gov.br/api/v1/localidades/estados/{UF}/distritos): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\quest\app\Controllers\Cadastro.php(96): file_get_contents('https://servico...')
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(824): App\Controllers\Cadastro->retornaCidades()
+#3 C:\xampp\htdocs\quest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#4 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-04 20:46:34 --> Undefined index: nome
+#0 C:\xampp\htdocs\quest\app\Controllers\Cadastro.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\quest\system\CodeIgniter.php(824): App\Controllers\Cadastro->retornaCidades()
+#2 C:\xampp\htdocs\quest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#3 C:\xampp\htdocs\quest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\quest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-04 21:13:18 --> Duplicate entry 'kkkkkkkkkkkkk' for key 'usuario'
+ERROR - 2021-11-04 21:16:51 --> Duplicate entry 'kkkkkkkkkkkkk' for key 'usuario'
