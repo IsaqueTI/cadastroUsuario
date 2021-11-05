@@ -6,4 +6,4 @@ Framerwork (Codeigniter 4.1)
 JS
 HTML
 Bootstrap
-Mysql (10.4.18-MariaDB)
+Mysql (10.4.18-MariaDB) sql com registros disponibilizado no repositorio.
